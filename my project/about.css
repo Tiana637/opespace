@@ -3,7 +3,7 @@
 				margin: 0;
 }
 body {
-				background-image: url("learn.jpg");
+				background-image: url("image 5.jpeg");
 				background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
@@ -47,8 +47,4 @@ h2{
   width: 50%;
   bottom: 10px;
   color: #ff9d00;
-}  
-#course{
-				text-align: center;
-				font-size: 100px;
 }

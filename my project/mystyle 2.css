@@ -3,52 +3,61 @@
 				margin: 0;
 }
 body {
-				background-image: url("learn.jpg");
+				background-image: url("image 4.jpeg");
 				background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
 }
-.menu-bar{
-				background: #ff9d00;
-				text-align: center;
-}
-.menu-bar ul{
+.content ul{
 				display: inline-flex;
 				list-style: none;
 				color:#ee95ff;
 				padding-left: 60px;
 				flex: 1;
 }
-.menu-bar ul li{
+.content ul li{
 				width: 120px;
 				margin: 0px 20px;
 				padding:15px;
 }
-.menu-bar ul li a{
+.content ul li a{
 				text-decoration: none;
 				color: black;
 }
-.active.menu-bar ul li: hover{
-			border-radius: 3px;
-			background: #aab5ff;
-}
 h1{
-				color: #222222;
-				text-align: center;
-				font-size: 100px;
+		text-align: center;
+		color: #ff0034;		
 }
 p{
-				color: #7aff00;
 				text-align: center;
+				color: black;
 				font-size: 50px;
 }
 h2{
+		text-align: center;
+		color: #ff0034;					
+}
+p{
+				text-align: center;
+				color: black;
+				font-size: 50px;
+}
+p{
+		text-align: center;
+				color: black;
+				font-size: 50px;		
+}
+p{
+				text-align: center;
+				color: black;
+				font-size: 50px;
+}
+h3{
 				position: fixed;
   width: 50%;
   bottom: 10px;
   color: #ff9d00;
-}  
-#course{
-				text-align: center;
-				font-size: 100px;
+}
+. address{
+				text-align:center;
 }
