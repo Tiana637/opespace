@@ -1,0 +1,95 @@
+*{
+				padding: 0;
+				margin: 0;
+}
+body {
+				background-image: url("job.jpg");
+				background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+.menu-bar{
+				background: #ff9d00;
+				text-align: center;
+}
+.menu-bar ul{
+				display: inline-flex;
+				list-style: none;
+				color:#ee95ff;
+				padding-left: 60px;
+				flex: 1;
+}
+.menu-bar ul li{
+				width: 120px;
+				margin: 0px 20px;
+				padding:15px;
+}
+.menu-bar ul li a{
+				text-decoration: none;
+				color: black;
+}
+.active.menu-bar ul li: hover{
+			border-radius: 3px;
+			background: #aab5ff;
+}
+h1{
+				color: #222222;
+				text-align: center;
+				font-size: 100px;
+}
+p{
+				color: #7aff00;
+				text-align: center;
+				font-size: 50px;
+}
+h2{
+				position: fixed;
+  width: 50%;
+  bottom: 10px;
+  color: #ff9d00;
+}
+.login-box{
+				width: 280px;
+				position: absolute;
+				top: 50%;
+				left:50%;
+				color: white;
+}
+.login-box h3{
+				float: left;
+				font-size: 40px;
+				border-bottom: 6px solid #3115ff;
+				margin-bottom: 50px;
+				padding: 13px 0;
+}
+.textbox{
+				width: 100%;
+				overflow: hidden;
+				font-size: 20px;
+				padding: 8px o;
+				border-bottom: 1px solid #3115ff;
+}
+.textbox i{
+				width: 26px;
+				float: left;
+				text-align: center;
+}
+.textbox input{
+				border: none;
+				outline: none;
+				background: none;
+				color: white;
+				font-size: 18px;
+				width: 80px;
+				float: left;
+				margin: 10px 0;		
+}
+.btn{
+			background: none;
+			width: 100%;
+			border: 5px solid black;
+			color: white;	
+			padding: 5px;
+			font-size: 18px;
+			margin: 12px 0;
+}
